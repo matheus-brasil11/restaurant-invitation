@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #faf1e8;
+  
+}
+
+#container {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#central-image{
+  max-width: 30%;
+  margin-bottom: 20px;
+}
+
+#pix {
+    color: #a98809;
+    font-style: sans-serif;
+}
