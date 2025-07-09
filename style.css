@@ -23,7 +23,7 @@ body{
 
 #pix {
     font-size: 2.0rem;
-    color: #a98809;
+    color: #b28c0a;
     font-style: sans-serif;
 }
 
@@ -36,8 +36,6 @@ body{
 }
  #pix {
     font-size: 2rem;
-    color: #a98809;
-    font-style: sans-serif;
 }
   
 }
@@ -51,8 +49,6 @@ body{
 }
  #pix {
     font-size: 2rem;
-    color: #a98809;
-    font-style: sans-serif;
 }
   
 }
@@ -64,9 +60,17 @@ body{
 
 }
  #pix {
-    font-size: 2rem;
-    color: #a98809;
-    font-style: sans-serif;
+
+  font-size: 1.6rem;
+}
+  
+}
+
+@media (max-width: 450px) {
+
+ #pix {
+
+  font-size: 1.1rem;
 }
   
 }
