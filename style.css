@@ -18,11 +18,55 @@ body{
 }
 
 #central-image{
-  max-width: 30%;
-  margin-bottom: 20px;
+  width: 30%;
 }
 
 #pix {
+    font-size: 2.0rem;
     color: #a98809;
     font-style: sans-serif;
+}
+
+@media (max-width: 1400px) {
+
+  #central-image{
+  width: 60%;
+  height: 50%;
+
+}
+ #pix {
+    font-size: 2rem;
+    color: #a98809;
+    font-style: sans-serif;
+}
+  
+}
+
+
+@media (max-width: 900px) {
+
+  #central-image{
+  width: 80%;
+  height: 50%;
+}
+ #pix {
+    font-size: 2rem;
+    color: #a98809;
+    font-style: sans-serif;
+}
+  
+}
+
+@media (max-width: 700px) {
+
+  #central-image{
+  width: 100%;
+
+}
+ #pix {
+    font-size: 2rem;
+    color: #a98809;
+    font-style: sans-serif;
+}
+  
 }
