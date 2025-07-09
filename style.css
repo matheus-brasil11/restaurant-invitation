@@ -41,6 +41,27 @@ body{
       background-color: #80533a;
     }
 
+    #popup {
+      visibility: hidden;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px 20px;
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+
+    #popup.show {
+      visibility: visible;
+      opacity: 1;
+    }
+
 
 
 @media (min-width: 1920px) {

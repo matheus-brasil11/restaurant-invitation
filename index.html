@@ -16,14 +16,18 @@
         <button id="copy-btn">Copiar código</button>
         </div>
 
+         <div id="popup">Código copiado!</div>
 
-          <script>
+
+        <script>
     document.getElementById("copy-btn").addEventListener("click", function () {
       const codigo = document.getElementById("pix-code").textContent;
       navigator.clipboard.writeText(codigo).then(() => {
-        alert("Código copiado para a área de transferência!");
-      }).catch(err => {
-        alert("Erro ao copiar: " + err);
+        const popup = document.getElementById("popup");
+        popup.classList.add("show");
+        setTimeout(() => {
+          popup.classList.remove("show");
+        }, 2000); 
       });
     });
   </script>
