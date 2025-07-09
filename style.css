@@ -27,6 +27,31 @@ body{
     font-style: sans-serif;
 }
 
+ #copy-btn {
+      margin-top: 10px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #ceac9f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    #copy-btn:hover {
+      background-color: #80533a;
+    }
+
+
+
+@media (min-width: 1920px) {
+
+  #central-image{
+  width: 20%;
+  height: 50%;
+
+}
+}
+
 @media (max-width: 1400px) {
 
   #central-image{
@@ -34,6 +59,7 @@ body{
   height: 50%;
 
 }
+
  #pix {
     font-size: 2rem;
 }
@@ -48,7 +74,7 @@ body{
   height: 50%;
 }
  #pix {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
   
 }
@@ -56,12 +82,12 @@ body{
 @media (max-width: 700px) {
 
   #central-image{
-  width: 100%;
+  width: 80%;
 
 }
  #pix {
 
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
   
 }
